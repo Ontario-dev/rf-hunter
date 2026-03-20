@@ -1,0 +1,43 @@
+export const LAGOS_STATIONS = [
+  { freq: 88.3, name: 'Grajos FM' },
+  { freq: 88.5, name: 'U FM' },
+  { freq: 88.9, name: 'Brila FM' },
+  { freq: 89.7, name: 'Eko FM' },
+  { freq: 89.9, name: 'Yanga FM' },
+  { freq: 90.1, name: 'Lasgidi FM' },
+  { freq: 90.3, name: 'VOP FM' },
+  { freq: 90.7, name: 'Champion FM' },
+  { freq: 90.9, name: 'Top Radio' },
+  { freq: 91.3, name: 'Lagos Talks' },
+  { freq: 91.5, name: 'Access24' },
+  { freq: 92.3, name: 'Inspiration FM' },
+  { freq: 92.7, name: 'Super FM' },
+  { freq: 93.7, name: 'Rhythm FM' },
+  { freq: 94.3, name: 'Rainbow FM' },
+  { freq: 95.1, name: 'Wazobia FM' },
+  { freq: 96.1, name: 'Traffic Radio' },
+  { freq: 96.9, name: 'Cool FM' },
+  { freq: 97.3, name: 'Classic FM' },
+  { freq: 97.7, name: 'Metro FM' },
+  { freq: 98.1, name: 'Max FM' },
+  { freq: 98.5, name: 'Soundcity Radio' },
+  { freq: 99.3, name: 'Nigeria Info' },
+  { freq: 99.9, name: 'Beat FM' },
+  { freq: 100.5, name: 'Raypower FM' },
+  { freq: 101.3, name: 'Rhythm FM' }, // Another frequency or known as 93.7 above, adding more to ensure coverage
+  { freq: 101.5, name: 'Star FM' },
+  { freq: 102.3, name: 'Radio One' },
+  { freq: 102.7, name: 'Naija FM' },
+  { freq: 103.1, name: 'Unilag FM' },
+  { freq: 103.5, name: 'Choice FM' },
+  { freq: 104.3, name: 'City FM' },
+  { freq: 105.1, name: 'Kennis FM' },
+  { freq: 105.3, name: 'Fresh FM' },
+  { freq: 105.9, name: 'Ogun Radio' }, // Can be picked up in Lagos
+  { freq: 106.5, name: 'Faaji FM' },
+  { freq: 107.5, name: 'Radio Lagos' },
+];
+
+export const CITIES = {
+  Lagos: LAGOS_STATIONS,
+};
